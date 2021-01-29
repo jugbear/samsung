@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+        <link rel="stylesheet" href="./main.css" media="all" />
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <title>samsung company</title>
+    <style>
+      @font-face {
+        font-family: Nahid;
+        src: url("./assets/Nahid.ttf") format("truetype");
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" id="mobile-nav-toggle" onclick="hambershow()">
+      <i class="fa fa-bars"></i>
+    </button>
+    <header id="header" class="header header-hide">
+      <div class="container header-co">
+        <div id="logo" class="pull-left">
+          <h1>
+            <a href="#body" class="scrollto">سامسونگ</a>
+          </h1>
+        </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="#root">ورود</a></li>
+            <li><a href="#timeline">موفقیت ها</a></li>
+            <li><a href="#about-us">درباره ما</a></li>
+            <li><a href="#sec-one">محصولات برتر</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
+    <nav id="mobile-nav-bar">
+      <ul class="mobile-nav-menu">
+        <li><a href="#root" class="nat-it">ورود</a></li>
+        <li><a href="#timeline" class="nat-it">موفقیت ها</a></li>
+        <li><a href="#about-us" class="nat-it">درباره ما</a></li>
+        <li><a href="#sec-one" class="nat-it">محصولات برتر</a></li>
+      </ul>
+    </nav>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img class="imgslider" src="./assets/img/slider-1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img class="imgslider" src="./assets/img/slider2.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img class="imgslider" src="./assets/img/slider3.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <section id="sec-one">
+      <div>
+        <h2 class="products-header">برترین محصولات</h2>
+        <div class="products">
+          <div class="card">
+            <div class="card-image img1"></div>
+            <div class="card-text" id="cardtext">
+              <h2>نمونه گوشی گلسی</h2>
+              <p>
+                یکی از بهترین گوشی های موجود در بازار می باشد که شما می توانید آن را خریداری کنید و بهترین ها را تجربه کنید
+              </p>
+            </div>
+            <div class="card-stats">
+              <button class="add-cart" id="product1" cart-btn>
+                افزودن به سبد خرید
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image img2"></div>
+            <div class="card-text" id="cardtext">
+              <h2>گوشی نوت سامسونگ</h2>
+              <p>
+                یکی از بهترین گوشی های موجود در بازار می باشد که شما می توانید آن را خریداری کنید و بهترین ها را تجربه کنید
+              </p>
+            </div>
+            <div class="card-stats">
+              <button class="add-cart" id="product2" cart-btn>
+                افزودن به سبد خرید
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image img3"></div>
+            <div class="card-text" id="cardtext">
+              <h2>آخرین مدل  سامسونگ</h2>
+              <p>
+                یکی از بهترین گوشی های موجود در بازار می باشد که شما می توانید آن را خریداری کنید و بهترین ها را تجربه کنید
+              </p>
+            </div>
+            <div class="card-stats">
+              <button class="add-cart" id="product3" cart-btn>
+                افزودن به سبد خرید
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- parallex section -->
+    <section id="about-us" class="about-us">
+        <div class="container about-container">
+          <div class="about-content">
+            <h2>درباره شرکت سامسونگ</h2>
+            <p class="about-text">گروه سامسونگ در سال ۱۹۳۸ توسط لی بیونگ-چول، به‌عنوان یک شرکت بازرگانی تأسیس شد و در طول ۳ دهه نخست، فعالیت‌های خود را در حوزه‌های ارائه خدمات مالی و بیمه، مبادلات اوراق بهادار و خرده‌فروشی توسعه داد و در اواخر دهه ۱۹۶۰ وارد صنعت الکترونیک گردید و در اواسط دهه ۱۹۷۰ نیز به صنایع کشتی‌سازی و ساخت و ساز وارد شد؛ ورود به این حوزه ها بود که سبب رشدهای بعدی آن گردید. پس از درگذشت لی بیونگ-چول، در سال ۱۹۸۷ شرکت سامسونگ به چهار گروه مستقل به‌نام‌های گروه سامسونگ، گروه شینسگائه، گروه سی‌جی و گروه هانسول تفکیک شد. در حال حاضر دفتر مرکزی این شرکت در شهر سامسونگ، سئول قرار دارد و بخشی از سهام آن در بازار بورس نیویورک معامله می‌شود.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--timeline-->
+        <section id="timeline">
+            <article>
+              <div class="inner">
+                <span class="date">
+                  <span class="day">۱۳۸۰</span>
+                  <span class="month">بهار</span>
+                </span>
+                <h2>اتفاقات سال ۱۳۸۰</h2>
+                <p>این متن برای اتفاقات مهمی می باشد که در سال ۱۳۸۰ برای شرکت ساموسنگ افتاده است و تا کنون نیز این تغییرات توانسته اند تحول شگرفی را در شرکت به وجود بیاورند</p>
+              </div>
+            </article>
+            <article>
+              <div class="inner">
+                <span class="date">
+                  <span class="day">۱۳۸۳</span>
+                  <span class="month">تابستان</span>
+                </span>
+                <h2>اتفاقات سال ۱۳۸۳</h2>
+                <p>این متن برای اتفاقات مهمی می باشد که در سال ۱۳۸۰ برای شرکت ساموسنگ افتاده است و تا کنون نیز این تغییرات توانسته اند تحول شگرفی را در شرکت به وجود بیاورند</p>
+              </div>
+            </article>
+            <article>
+              <div class="inner">
+                <span class="date">
+                  <span class="day">۱۳۸۵</span>
+                  <span class="month">پاییز</span>
+                </span>
+                <h2>اتفاقات سال ۱۳۸۵</h2>
+                <p>این متن برای اتفاقات مهمی می باشد که در سال ۱۳۸۰ برای شرکت ساموسنگ افتاده است و تا کنون نیز این تغییرات توانسته اند تحول شگرفی را در شرکت به وجود بیاورند</p>
+              </div>
+            </article>
+            <article>
+              <div class="inner">
+                <span class="date">
+                  <span class="day">۱۳۸۹</span>
+                  <span class="month">بهار</span>
+                </span>
+                <h2>اتفاقات سال ۱۳۸۹</h2>
+                <p>این متن برای اتفاقات مهمی می باشد که در سال ۱۳۸۰ برای شرکت ساموسنگ افتاده است و تا کنون نیز این تغییرات توانسته اند تحول شگرفی را در شرکت به وجود بیاورند</p>
+              </div>
+            </article>
+            <article>
+              <div class="inner">
+                <span class="date">
+                  <span class="day">۱۳۹۰</span>
+                  <span class="month">زمستان</span>
+                </span>
+                <h2>اتفاقات سال ۱۳۹۰</h2>
+                <p>این متن برای اتفاقات مهمی می باشد که در سال ۱۳۸۰ برای شرکت ساموسنگ افتاده است و تا کنون نیز این تغییرات توانسته اند تحول شگرفی را در شرکت به وجود بیاورند</p>
+              </div>
+            </article>
+          </section>
+          <div id="root"></div>
+          <!--footer-->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-me">
+                  <div class="footer-logo">
+                    <h2 class="navbar-brand" href="#">درباره شرکت سامسونگ</h2>
+                    <p>یکی از بزرگترین شرکت ها در زمینه تکنولوژی سامسونگ می باشد که در سال های اخیر توانسته فروش بسیاری داشته باشد و  خدمات بسیاری را نیز به مردم ارایه دهد </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyrights">
+              <div class="container">
+                <div class="credits">
+                  طراحی توسط <a href="https://bootstrapmade.com/">محمد صادق</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+    <script>
+      const hambershow = () => {
+        const mobileNav = document.getElementById("mobile-nav-bar");
+        mobileNav.style.display == "none"
+          ? (mobileNav.style.display = "block")
+          : (mobileNav.style.display = "none");
+      };
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
